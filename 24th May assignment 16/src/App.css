@@ -1,0 +1,75 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-background {
+  min-height: 100vh;             
+  width: 100vw;  
+  background-image: url('https://external-preview.redd.it/nEdjjB9-QmYr6y99INRSvttOaZ539_gEayDfUw1b2x0.jpg?width=1080&crop=smart&auto=webp&s=56e68b912c716d594c61f81aec54cd1395ba73ef');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.main-container {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+.friend-card {
+  background-color: #e06d097f;
+  color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+
+.friend-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+
+.friend-card img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.friend-card a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.friend-card blockquote {
+  font-style: italic;
+  color: #bebcbc;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+h4{
+  font-size: 20px;
+  text-decoration: underline;
+}
