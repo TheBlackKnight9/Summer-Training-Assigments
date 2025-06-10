@@ -3,7 +3,7 @@
 // import studentRouter from './routes/students.js';
 
 // const app = express();
-// mongoose.connect('mongodb+srv://Prerak_2:anpr0925@cluster0.c4xnq.mongodb.net/')
+// 
 //   .then(() => console.log('MongoDB Connected'))
 //   .catch((err) => console.error(' MongoDB connection error:', err));
 
@@ -22,7 +22,7 @@ import users from './routes/users.js';
 
 const app = express();
 
-mongoose.connect('mongodb+srv://Prerak_2:anpr0925@cluster0.c4xnq.mongodb.net/')
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.c4xnq.mongodb.net/')
   .then(() => console.log(' MongoDB Connected'))
   .catch((err) => console.error('MongoDB connection error:', err));
 
